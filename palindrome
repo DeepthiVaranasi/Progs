@@ -1,0 +1,17 @@
+public static void palindrome(String string)
+     {
+         StringBuffer stringBuffer = new StringBuffer(string);
+         StringBuffer newString = stringBuffer.reverse();
+         System.out.println(newString);
+         String finalString = newString.toString();
+         if(string.equals(finalString))
+         {
+             System.out.println("palindrome");
+         }
+         else
+         {
+             System.out.println("not a palindrome");
+         }
+         
+     }
+     

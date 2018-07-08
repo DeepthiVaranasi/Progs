@@ -1,0 +1,5 @@
+@Test
+	public void testDuplicates() {
+		String s = "deepthi";
+		ChapterOne.duplicates(s);
+	}

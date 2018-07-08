@@ -1,0 +1,16 @@
+ public static void vowels(String s) {
+    	 char[] chars = s.toCharArray();
+    	 int vowels = 0;
+    	 for( char c : chars) {
+    		 switch (c) {
+    		 case 'a' :
+    		 case 'e' :
+    		 case 'o' :
+    		 case 'u' :
+    			 vowels++;
+    			 break;
+    			 default:
+    		 }
+    	 }
+    	 System.out.println("Vowels : "+vowels);
+     }

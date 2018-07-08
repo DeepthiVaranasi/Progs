@@ -1,0 +1,7 @@
+@Test
+	public void testCheckString() {
+		String string = "lalala";
+		ChapterOne.checkString(string);
+
+		
+	}

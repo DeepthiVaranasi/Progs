@@ -1,0 +1,6 @@
+@Test
+	public void testVoowels() {
+		String s = "deepthi";
+		ChapterOne.vowels(s);
+	}
+	

@@ -1,0 +1,11 @@
+  public static void checkString(String string)
+    	    {
+    	        for(int i = 0; i < string.length(); i++)
+    	        {
+    	            if(string.charAt(i) < 'A' || string.charAt(i) > 'Z' && string.charAt(i) < 'a' || string.charAt(i) > 'z' )
+    	            {
+    	                System.out.println("True");
+    	            }
+    	        }
+    	        System.out.println("False");
+    	    }

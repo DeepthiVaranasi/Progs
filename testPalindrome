@@ -1,0 +1,5 @@
+@Test
+	public void testPalindrome() {
+		String string = "lalala";
+		ChapterOne.palindrome(string);
+	}
